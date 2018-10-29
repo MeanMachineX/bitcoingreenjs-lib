@@ -14,7 +14,7 @@ function ECPair (d, Q, options) {
   options = options || {}
 
   this.compressed = options.compressed === undefined ? true : options.compressed
-  this.network = options.network || NETWORKS.bitcoin
+  this.network = options.network || NETWORKS.bitcoingreen
 
   this.__d = d || null
   this.__Q = null
@@ -73,7 +73,7 @@ function fromWIF (string, network) {
 
   // otherwise, assume a network object (or default to bitcoin)
   } else {
-    network = network || NETWORKS.bitcoin
+    network = network || NETWORKS.bitcoingreen
 
     if (version !== network.wif) throw new Error('Invalid network version')
   }

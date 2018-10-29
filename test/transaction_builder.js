@@ -14,7 +14,7 @@ const fixtures = require('./fixtures/transaction_builder')
 
 // TODO: remove
 function getAddress (node) {
-  return baddress.toBase58Check(bcrypto.hash160(node.publicKey), NETWORKS.bitcoin.pubKeyHash)
+  return baddress.toBase58Check(bcrypto.hash160(node.publicKey), NETWORKS.bitcoingreen.pubKeyHash)
 }
 
 function constructSign (f, txb) {
