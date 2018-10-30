@@ -163,7 +163,7 @@ describe('ECPair', function () {
       const keyPair = ECPair.makeRandom()
 
       assert.strictEqual(keyPair.compressed, true)
-      assert.strictEqual(keyPair.network, NETWORKS.bitcoin)
+      assert.strictEqual(keyPair.network, NETWORKS.bitcoingreen)
     })
 
     it('supports the options parameter', function () {
