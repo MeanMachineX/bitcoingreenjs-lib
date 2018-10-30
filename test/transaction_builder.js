@@ -97,8 +97,8 @@ describe('TransactionBuilder', function () {
   // constants
   const keyPair = ECPair.fromPrivateKey(Buffer.from('0000000000000000000000000000000000000000000000000000000000000001', 'hex'))
   const scripts = [
-    '1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH',
-    '1cMh228HTCiwS8ZsaakH8A8wze1JR5ZsP'
+    'GUXByHDZLvU4DnVH9imSFckt3HEQ5cFgE5',
+    'GJTH79M5GJp21uRroXErhtW2sARrMG9C9K'
   ].map(function (x) {
     return baddress.toOutputScript(x)
   })
@@ -107,7 +107,7 @@ describe('TransactionBuilder', function () {
   describe('fromTransaction', function () {
     fixtures.valid.build.forEach(function (f) {
       it('returns TransactionBuilder, with ' + f.description, function () {
-        const network = NETWORKS[f.network || 'bitcoin']
+        const network = NETWORKS[f.network || 'bitcoingreen']
 
         const tx = Transaction.fromHex(f.txHex)
         const txb = TransactionBuilder.fromTransaction(tx, network)
