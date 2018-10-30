@@ -1,17 +1,16 @@
 {
-  "name": "bitcoinjs-lib",
+  "name": "bitcoingreenjs-lib",
   "version": "4.0.2",
-  "description": "Client-side Bitcoin JavaScript library",
+  "description": "Client-side Bitcoin Green JavaScript library",
   "main": "./src/index.js",
   "engines": {
     "node": ">=8.0.0"
   },
   "keywords": [
-    "bitcoinjs",
-    "bitcoin",
+    "bitcoingreenjs",
+    "bitcoingreen",
     "browserify",
-    "javascript",
-    "bitcoinjs"
+    "javascript"
   ],
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -24,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+    "url": "https://github.com/bitcoingreen/bitcoingreenjs-lib"
   },
   "files": [
     "src"
