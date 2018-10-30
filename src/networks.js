@@ -7,10 +7,10 @@
 module.exports = {
   bitcoingreen: {
     messagePrefix: '\x18Bitcoin Signed Message:\n',	// *
-    bech32: 'bc',					// *
+    bech32: 'bc',
     bip32: {
-      public: 0x0488b21e,				// *
-      private: 0x0488ade4				// *
+      public: 0x0488b21e,
+      private: 0x0488ade4
     },
     pubKeyHash: 0x26,
     scriptHash: 0x06,
@@ -18,10 +18,10 @@ module.exports = {
   },
   testnet: {
     messagePrefix: '\x18Bitcoin Signed Message:\n',	// *
-    bech32: 'tb',					// *
+    bech32: 'tb',
     bip32: {
-      public: 0x043587cf,				// *
-      private: 0x04358394				// *
+      public: 0x043587cf,
+      private: 0x04358394
     },
     pubKeyHash: 0x62,
     scriptHash: 0x0c,
