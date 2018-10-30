@@ -167,6 +167,8 @@ Block.prototype.checkMerkleRoot = function () {
   return this.merkleRoot.compare(actualMerkleRoot) === 0
 }
 
+/* Note: Bitcoin Green mostly uses Proof of Stake and therefore this method
+    is only useful for the PoW phase */
 Block.prototype.checkProofOfWork = function () {
   const hash = this.getHash().reverse()
   const target = Block.calculateTarget(this.bits)
