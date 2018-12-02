@@ -66,7 +66,7 @@ describe('address', function () {
       it('encodes ' + f.script.slice(0, 30) + '... (' + f.network + ')', function () {
         const script = bscript.fromASM(f.script)
         const address = baddress.fromOutputScript(script, NETWORKS[f.network])
-
+		
         assert.strictEqual(address, f.base58check || f.bech32.toLowerCase())
       })
     })

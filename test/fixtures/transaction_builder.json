@@ -2292,7 +2292,7 @@
       {
         "description": "Wrong network for keyPair",
         "exception": "Inconsistent network",
-        "network": "bitcoin",
+        "network": "bitcoingreen",
         "inputs": [
           {
             "txId": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",

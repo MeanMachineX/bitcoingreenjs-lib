@@ -4,7 +4,7 @@ const OPS = require('bitcoin-ops')
 const ecc = require('tiny-secp256k1')
 
 const bscript = require('../script')
-const BITCOIN_NETWORK = require('../networks').bitcoin
+const BITCOINGREEN_NETWORK = require('../networks').bitcoingreenm
 const OP_INT_BASE = OPS.OP_RESERVED // OP_1 - 1
 
 function stacksEqual (a, b) {
@@ -41,7 +41,7 @@ function p2ms (a, opts) {
     input: typef.maybe(typef.Buffer)
   }, a)
 
-  const network = a.network || BITCOIN_NETWORK
+  const network = a.network || BITCOINGREEN_NETWORK
   const o = { network }
 
   let chunks
