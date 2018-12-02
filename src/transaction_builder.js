@@ -437,7 +437,9 @@ function TransactionBuilder (network, maximumFeeRate) {
 
   this.__inputs = []
   this.__tx = new Transaction()
-  this.__tx.version = 2
+
+  /*  Bitcoin Green: Current version is 1 */
+  this.__tx.version = 1
 }
 
 TransactionBuilder.prototype.setLockTime = function (locktime) {
