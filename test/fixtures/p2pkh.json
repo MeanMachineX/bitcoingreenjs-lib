@@ -3,7 +3,7 @@
     {
       "description": "output from address",
       "arguments": {
-        "address": "134D6gYy8DsR5m4416BnmgASuMBqKvogQh"
+        "address": "GKu8Wosv75UiAEMLw2quCSWLpWygPCvpCR"
       },
       "options": {},
       "expected": {
@@ -20,7 +20,7 @@
         "hash": "168b992bcfc44050310b3a94bd0771136d0b28d1"
       },
       "expected": {
-        "address": "134D6gYy8DsR5m4416BnmgASuMBqKvogQh",
+        "address": "GKu8Wosv75UiAEMLw2quCSWLpWygPCvpCR",
         "output": "OP_DUP OP_HASH160 168b992bcfc44050310b3a94bd0771136d0b28d1 OP_EQUALVERIFY OP_CHECKSIG",
         "signature": null,
         "input": null,
@@ -33,7 +33,7 @@
         "output": "OP_DUP OP_HASH160 168b992bcfc44050310b3a94bd0771136d0b28d1 OP_EQUALVERIFY OP_CHECKSIG"
       },
       "expected": {
-        "address": "134D6gYy8DsR5m4416BnmgASuMBqKvogQh",
+        "address": "GKu8Wosv75UiAEMLw2quCSWLpWygPCvpCR",
         "hash": "168b992bcfc44050310b3a94bd0771136d0b28d1",
         "signature": null,
         "input": null,
@@ -46,7 +46,7 @@
         "pubkey": "030000000000000000000000000000000000000000000000000000000000000001"
       },
       "expected": {
-        "address": "134D6gYy8DsR5m4416BnmgASuMBqKvogQh",
+        "address": "GKu8Wosv75UiAEMLw2quCSWLpWygPCvpCR",
         "hash": "168b992bcfc44050310b3a94bd0771136d0b28d1",
         "output": "OP_DUP OP_HASH160 168b992bcfc44050310b3a94bd0771136d0b28d1 OP_EQUALVERIFY OP_CHECKSIG",
         "signature": null,
@@ -61,7 +61,7 @@
         "signature": "300602010002010001"
       },
       "expected": {
-        "address": "134D6gYy8DsR5m4416BnmgASuMBqKvogQh",
+        "address": "GKu8Wosv75UiAEMLw2quCSWLpWygPCvpCR",
         "hash": "168b992bcfc44050310b3a94bd0771136d0b28d1",
         "output": "OP_DUP OP_HASH160 168b992bcfc44050310b3a94bd0771136d0b28d1 OP_EQUALVERIFY OP_CHECKSIG",
         "input": "300602010002010001 030000000000000000000000000000000000000000000000000000000000000001",
@@ -74,7 +74,7 @@
         "input": "300602010002010001 030000000000000000000000000000000000000000000000000000000000000001"
       },
       "expected": {
-        "address": "134D6gYy8DsR5m4416BnmgASuMBqKvogQh",
+        "address": "GKu8Wosv75UiAEMLw2quCSWLpWygPCvpCR",
         "hash": "168b992bcfc44050310b3a94bd0771136d0b28d1",
         "output": "OP_DUP OP_HASH160 168b992bcfc44050310b3a94bd0771136d0b28d1 OP_EQUALVERIFY OP_CHECKSIG",
         "pubkey": "030000000000000000000000000000000000000000000000000000000000000001",
