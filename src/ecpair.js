@@ -71,7 +71,7 @@ function fromWIF (string, network) {
 
     if (!network) throw new Error('Unknown network version')
 
-  // otherwise, assume a network object (or default to bitcoin)
+  // otherwise, assume a network object (or default to bitcoingreen)
   } else {
     network = network || NETWORKS.bitcoingreen
 

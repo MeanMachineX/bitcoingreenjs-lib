@@ -139,7 +139,7 @@ describe('ECPair', function () {
 
   describe('makeRandom', function () {
     const d = Buffer.alloc(32, 4)
-    const exWIF = 'KwMWvwRJeFqxYyhZgNwYuYjbQENDAPAudQx5VEmKJrUZcq6aL2pv'
+    const exWIF = '7oop3hsYHeigeYcaLAaKdGyezbtii4wJHBsPbzMZ3cgCXgjZdjpV'
 
     describe('uses randombytes RNG', function () {
       it('generates a ECPair', function () {

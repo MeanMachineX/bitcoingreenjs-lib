@@ -300,7 +300,7 @@
     {
       "exception": "Network mismatch",
       "arguments": {
-        "network": "bitcoin",
+        "network": "bitcoingreen",
         "redeem": {
           "network": "testnet"
         }
